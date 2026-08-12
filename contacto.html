@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto — DelFín</title>
+<meta name="description" content="Escribinos por WhatsApp o dejanos tu mensaje — hablemos de tu marca.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a class="brand-mark" href="index.html"><span class="brand-dot"></span><span>Del<span class="brand-fin">Fín</span></span></a>
+    <ul class="nav-links">
+      <li><a href="historia.html">Historia</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="casos-de-exito.html">Casos de Éxito</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+    </ul>
+    <a class="nav-cta" href="contacto.html" aria-current="page">Hablemos</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Contacto</p>
+    <h1>Hablemos de tu marca.</h1>
+    <p class="lede" style="margin-top:18px;">Contanos qué estás construyendo — te decimos qué hace falta para que tus audiencias te encuentren.</p>
+  </div>
+</header>
+
+<hr class="divider">
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>Por WhatsApp</h3>
+        <p>La forma más rápida — te respondemos directo.</p>
+        <a class="btn btn-primary" style="margin-top:18px;" href="https://wa.me/5491161401640?text=Hola%2C%20quiero%20hablar%20sobre%20mi%20marca" target="_blank" rel="noopener">Escribinos por WhatsApp →</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>Por mensaje</h3>
+        <p>Dejanos tu nombre, mail y qué necesitás — te contestamos por mail.</p>
+        <form id="contact-form" style="margin-top:22px;">
+          <div class="field">
+            <label for="cf-name">Nombre</label>
+            <input type="text" id="cf-name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="cf-email">E-mail</label>
+            <input type="email" id="cf-email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="cf-message">Mensaje</label>
+            <textarea id="cf-message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje →</button>
+          <p class="form-note">Se abre tu cliente de mail con el mensaje ya armado, dirigido a tomas.carchio@gmail.com.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <span class="footer-slogan">Del<span class="brand-fin">Fín</span> — Al servicio de las buenas ideas.</span>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/delfin.agenciademarketing/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <span class="footer-meta">Fundada 12/08/2026</span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('contact-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var name = document.getElementById('cf-name').value;
+  var email = document.getElementById('cf-email').value;
+  var message = document.getElementById('cf-message').value;
+  var subject = 'Contacto desde el sitio — ' + name;
+  var body = 'Nombre: ' + name + '\nE-mail: ' + email + '\n\n' + message;
+  window.location.href = 'mailto:tomas.carchio@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+});
+</script>
+
+</body>
+</html>

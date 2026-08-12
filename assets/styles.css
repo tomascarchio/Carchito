@@ -127,6 +127,20 @@ section.tight { padding: 48px 0; }
 .hero { padding: 100px 0 80px; }
 .hero .kicker { margin-bottom: 26px; }
 .hero h1 { margin-bottom: 24px; }
+.hero-logo {
+  width: 108px;
+  border-radius: 22px;
+  margin-bottom: 32px;
+  box-shadow: 0 24px 50px -22px rgba(0,0,0,0.7), 0 0 0 1px var(--line);
+  display: block;
+}
+.hero-tag {
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--muted-2);
+  margin-top: 22px;
+}
 
 /* --- cards --- */
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
@@ -140,8 +154,9 @@ section.tight { padding: 48px 0; }
 }
 a.card { transition: border-color 0.15s ease, background 0.15s ease; }
 a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
-.card h3 { margin-bottom: 10px; }
+.card h3 { margin-bottom: 10px; color: var(--violet-light); }
 .card p { color: var(--muted); font-size: 15px; margin-bottom: 0; }
+.brand-fin { color: var(--violet-light); }
 .service-dot {
   display: inline-block;
   width: 8px; height: 8px;
@@ -206,7 +221,7 @@ a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
 }
 a.case-card { transition: border-color 0.15s ease, background 0.15s ease; }
 a.case-card:hover { border-color: var(--line-strong); background: var(--card-2); }
-.case-name { font-size: 22px; font-weight: 800; margin: 0 0 4px; }
+.case-name { font-size: 22px; font-weight: 800; margin: 0 0 4px; color: var(--violet-light); }
 .case-industry {
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 12.5px;
@@ -369,6 +384,39 @@ footer.site-footer {
 .footer-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; align-items: center; }
 .footer-slogan { font-size: 15px; color: var(--muted); }
 .footer-meta { font-family: 'Consolas', 'Courier New', monospace; font-size: 12.5px; color: var(--muted-2); }
+.footer-social { display: flex; gap: 18px; }
+.footer-social a { font-size: 13.5px; color: var(--muted); text-decoration: none; }
+.footer-social a:hover { color: var(--violet-light); }
+
+/* --- contacto --- */
+.contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 22px; align-items: start; }
+@media (max-width: 760px) { .contact-grid { grid-template-columns: 1fr; } }
+.contact-card { border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 32px; }
+.contact-card h3 { margin-bottom: 10px; }
+.contact-card p { color: var(--muted); font-size: 15px; }
+.field { margin-bottom: 18px; }
+.field label {
+  display: block;
+  font-family: 'Consolas', 'Courier New', monospace;
+  font-size: 12.5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted-2);
+  margin-bottom: 8px;
+}
+.field input, .field textarea {
+  width: 100%;
+  background: var(--card-2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  color: var(--text);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  font-size: 15px;
+}
+.field input:focus, .field textarea:focus { outline: none; border-color: var(--violet-light); }
+.field textarea { resize: vertical; min-height: 110px; }
+.form-note { font-size: 12.5px; color: var(--muted-2); margin-top: 14px; }
 
 @media (max-width: 640px) {
   section { padding: 52px 0; }
