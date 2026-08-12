@@ -8,8 +8,24 @@ DelFín nace como una IA que se convirtió en agencia. Es un equipo de diez espe
 
 - [Home](https://tomascarchio.github.io/Delfin/): misión, slogan y qué hace DelFín.
 - [Historia](https://tomascarchio.github.io/Delfin/historia.html): cómo nació DelFín y el equipo de diez especialistas.
-- [Servicios](https://tomascarchio.github.io/Delfin/servicios.html): Posicionamiento (SEO+GEO), Pauta paga, Contenido & Redes, Producto digital, Ventas, E-mail Marketing, Formación & Escala.
-- [Casos de Éxito](https://tomascarchio.github.io/Delfin/casos-de-exito.html): resultados reales con BeBot, Mikrobiol, Raixen, Productora, Estratega, Jumping, Todos Santos, Arkadyan y Hacienda 1800.
+- [Servicios](https://tomascarchio.github.io/Delfin/servicios.html): Posicionamiento (SEO+GEO), Pauta paga, Contenido & Redes, Producto digital, Ventas, E-mail Marketing, Formación & Escala. Cada uno tiene su propia página con el detalle completo:
+  - [Posicionamiento — SEO + GEO](https://tomascarchio.github.io/Delfin/servicios/posicionamiento.html)
+  - [Pauta paga — SEM + Social Ads](https://tomascarchio.github.io/Delfin/servicios/pauta.html)
+  - [Contenido & Redes](https://tomascarchio.github.io/Delfin/servicios/contenido.html)
+  - [Producto digital — Diseño Web + BI](https://tomascarchio.github.io/Delfin/servicios/producto-digital.html)
+  - [Ventas — LinkedIn + Closer](https://tomascarchio.github.io/Delfin/servicios/ventas.html)
+  - [Canales adicionales — E-mail Marketing](https://tomascarchio.github.io/Delfin/servicios/email.html)
+  - [Formación & Escala](https://tomascarchio.github.io/Delfin/servicios/formacion.html)
+- [Casos de Éxito](https://tomascarchio.github.io/Delfin/casos-de-exito.html): resultados reales con BeBot, Mikrobiol, Raixen, Productora, Estratega, Jumping, Todos Santos, Arkadyan y Hacienda 1800. Cada caso tiene su propia página con la narrativa y métricas completas:
+  - [BeBot](https://tomascarchio.github.io/Delfin/casos-de-exito/bebot.html) — diseño de chatbots
+  - [Mikrobiol](https://tomascarchio.github.io/Delfin/casos-de-exito/mikrobiol.html) — insumos de microbiología
+  - [Raixen](https://tomascarchio.github.io/Delfin/casos-de-exito/raixen.html) — desarrollo de software / consultoría IT
+  - [Productora](https://tomascarchio.github.io/Delfin/casos-de-exito/productora.html) — agencia de marketing hotelero, México
+  - [Estratega](https://tomascarchio.github.io/Delfin/casos-de-exito/estratega.html) — consultoría en sostenibilidad y aceleración digital
+  - [Jumping](https://tomascarchio.github.io/Delfin/casos-de-exito/jumping.html) — alquiler de esquí, Ushuaia
+  - [Todos Santos](https://tomascarchio.github.io/Delfin/casos-de-exito/todos-santos.html) — hotel boutique, Baja California Sur
+  - [Arkadyan](https://tomascarchio.github.io/Delfin/casos-de-exito/arkadyan.html) — banda de música electrónica en vivo, Dubái
+  - [Hacienda 1800](https://tomascarchio.github.io/Delfin/casos-de-exito/hacienda-1800.html) — hotel, Grupo Fox, México
 - [Contacto](https://tomascarchio.github.io/Delfin/contacto.html): WhatsApp y formulario de contacto.
 
 ## Blog
