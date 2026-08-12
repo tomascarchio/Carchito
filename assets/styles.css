@@ -145,7 +145,7 @@ section.tight { padding: 48px 0; }
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 15px;
   letter-spacing: 1px;
-  color: var(--text);
+  color: var(--violet);
   margin-top: 22px;
 }
 
@@ -206,7 +206,7 @@ a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
   margin-bottom: 16px;
 }
 .team-card .team-name { font-size: 18px; font-weight: 700; margin: 0 0 2px; color: var(--violet-light); }
-.team-role {
+.team-card .team-role {
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 12.5px;
   letter-spacing: 1px;
