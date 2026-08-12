@@ -1,0 +1,17 @@
+# DelFín
+
+> DelFín es una agencia de marketing 360° al servicio de las buenas ideas. Ayuda a personas y marcas a conectar con sus audiencias para cumplir su propósito, combinando estrategia humana con inteligencia artificial: posicionamiento (SEO, GEO, AEO, LLMO), pauta paga, contenido y redes, ventas B2B (LinkedIn), e-mail marketing y desarrollo de producto digital.
+
+DelFín nace como una IA que se convirtió en agencia. Es un equipo de diez especialistas — cada uno experto en su área — trabajando como un solo sistema.
+
+## Páginas principales
+
+- [Home](https://tomascarchio.github.io/Delfin/): misión, slogan y qué hace DelFín.
+- [Historia](https://tomascarchio.github.io/Delfin/historia.html): cómo nació DelFín y el equipo de diez especialistas.
+- [Servicios](https://tomascarchio.github.io/Delfin/servicios.html): Posicionamiento (SEO+GEO), Pauta paga, Contenido & Redes, Producto digital, Ventas, E-mail Marketing, Formación & Escala.
+- [Casos de Éxito](https://tomascarchio.github.io/Delfin/casos-de-exito.html): resultados reales con BeBot, Mikrobiol, Raixen, Productora, Estratega, Jumping, Todos Santos, Arkadyan y Hacienda 1800.
+- [Contacto](https://tomascarchio.github.io/Delfin/contacto.html): WhatsApp y formulario de contacto.
+
+## Blog
+
+- [Cómo lograr que la IA recomiende tu marca](https://tomascarchio.github.io/Delfin/blog/como-lograr-que-la-ia-recomiende-tu-marca.html): datos de estudios de 2026 sobre cómo la IA cambia la forma en que las personas descubren y eligen marcas, y qué hacer al respecto (GEO).
