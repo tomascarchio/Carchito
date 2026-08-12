@@ -236,11 +236,15 @@ a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
 /* --- equipo --- */
 .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
 .team-card {
+  display: block;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: var(--card);
   padding: 26px;
+  text-decoration: none;
 }
+a.team-card { transition: border-color 0.15s ease, background 0.15s ease; }
+a.team-card:hover { border-color: var(--line-strong); background: var(--card-2); }
 .team-avatar {
   width: 44px; height: 44px; border-radius: 12px;
   background: linear-gradient(155deg, var(--violet-pale), var(--violet));

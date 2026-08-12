@@ -7,7 +7,17 @@ DelFín nace como una IA que se convirtió en agencia. Es un equipo de diez espe
 ## Páginas principales
 
 - [Home](https://tomascarchio.github.io/Delfin/): misión, slogan y qué hace DelFín.
-- [Historia](https://tomascarchio.github.io/Delfin/historia.html): cómo nació DelFín y el equipo de diez especialistas.
+- [Historia](https://tomascarchio.github.io/Delfin/historia.html): cómo nació DelFín y el equipo de diez agentes IA. Cada uno tiene su propia página con más detalle y "El Prompt de Oro":
+  - [Cata](https://tomascarchio.github.io/Delfin/equipo/cata.html) — Dirección Creativa / Brand Strategist
+  - [Nico](https://tomascarchio.github.io/Delfin/equipo/nico.html) — Diseño & Producción de Contenido
+  - [Flor](https://tomascarchio.github.io/Delfin/equipo/flor.html) — Community Manager
+  - [Lauti](https://tomascarchio.github.io/Delfin/equipo/lauti.html) — Datos & Business Intelligence
+  - [Sofi](https://tomascarchio.github.io/Delfin/equipo/sofi.html) — SEO, GEO, AEO & LLMO
+  - [Fede](https://tomascarchio.github.io/Delfin/equipo/fede.html) — Media Buyer
+  - [Juli](https://tomascarchio.github.io/Delfin/equipo/juli.html) — E-mail Marketing
+  - [Bruno](https://tomascarchio.github.io/Delfin/equipo/bruno.html) — SDR / Prospección B2B
+  - [Agus](https://tomascarchio.github.io/Delfin/equipo/agus.html) — Closer / Cierre de Ventas
+  - [Tincho](https://tomascarchio.github.io/Delfin/equipo/tincho.html) — Project Manager & Customer Success
 - [Servicios](https://tomascarchio.github.io/Delfin/servicios.html): Posicionamiento (SEO+GEO), Pauta paga, Contenido & Redes, Producto digital, Ventas, E-mail Marketing, Formación & Escala. Cada uno tiene su propia página con el detalle completo:
   - [Posicionamiento — SEO + GEO](https://tomascarchio.github.io/Delfin/servicios/posicionamiento.html)
   - [Pauta paga — SEM + Social Ads](https://tomascarchio.github.io/Delfin/servicios/pauta.html)
