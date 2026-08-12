@@ -17,24 +17,35 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="assets/styles.css">
 <style>
+  .origin-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: start; }
+  @media (max-width: 760px) { .origin-grid { grid-template-columns: 1fr; } }
   .gold-card {
+    display: block;
     border: 1px solid rgba(205, 162, 51, 0.35);
     background: linear-gradient(155deg, rgba(205,162,51,0.10), rgba(122,92,16,0.04));
     border-radius: 18px;
-    padding: 36px;
-    margin-top: 8px;
+    padding: 24px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, background 0.15s ease;
   }
-  .gold-card .kicker { color: #e0bb52; }
-  .gold-card h3 { margin-bottom: 6px; }
+  .gold-card:hover { border-color: rgba(224, 187, 82, 0.6); background: linear-gradient(155deg, rgba(205,162,51,0.16), rgba(122,92,16,0.06)); }
+  .gold-card .gold-preview {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 16px 34px -18px rgba(0,0,0,0.6);
+  }
+  .gold-card .kicker { color: #e0bb52; margin-bottom: 12px; }
+  .gold-card h3 { margin-bottom: 6px; color: var(--text); }
   .gold-card .gold-byline {
     font-family: 'Consolas', 'Courier New', monospace;
     font-size: 12.5px;
     color: #b89448;
-    margin-bottom: 18px;
+    margin-bottom: 0;
   }
-  .gold-card p { color: var(--muted); margin-bottom: 22px; }
-  .gold-link { color: #e0bb52; font-weight: 700; text-decoration: none; }
-  .gold-link:hover { color: #f3dd8f; }
+  .gold-link { display: inline-block; margin-top: 18px; color: #e0bb52; font-weight: 700; text-decoration: none; }
+  .gold-card:hover .gold-link { color: #f3dd8f; }
 </style>
 </head>
 <body>
@@ -65,8 +76,19 @@
 
 <section>
   <div class="wrap">
-    <p class="lede" style="font-size:22px; color:var(--text); max-width:52ch;">Del<span class="brand-fin">Fín</span> nace como una IA que se convirtió en agencia.</p>
-    <p class="lede" style="margin-top:20px;">Después de casi un año trabajando con IA para más de 20 marcas, estandarizamos un método para desarrollar de cero una marca y lograr construir presencia, posicionamiento y autoridad en el mundo digital. Combinando cerebro y corazón humano con inteligencia artificial, ayudamos a que las marcas conecten con sus audiencias y así, puedan cumplir con su propósito.</p>
+    <div class="origin-grid">
+      <div>
+        <p class="lede" style="font-size:22px; color:var(--text); max-width:52ch;">Del<span class="brand-fin">Fín</span> nace como una IA que se convirtió en agencia.</p>
+        <p class="lede" style="margin-top:20px;">Después de casi un año trabajando con IA para más de 20 marcas, estandarizamos un método para desarrollar de cero una marca y lograr construir presencia, posicionamiento y autoridad en el mundo digital. Combinando cerebro y corazón humano con inteligencia artificial, ayudamos a que las marcas conecten con sus audiencias y así, puedan cumplir con su propósito.</p>
+      </div>
+      <a class="gold-card" href="https://claude.ai/code/artifact/cc1b8573-260a-4599-8ef1-c4a5d6e478a8" target="_blank" rel="noopener">
+        <img class="gold-preview" src="assets/prompt-de-oro-preview.png" alt="El Prompt de Oro — vista previa del documento">
+        <p class="kicker">Cómo empezó todo.</p>
+        <h3>El Prompt de Oro</h3>
+        <p class="gold-byline">De Tomás Carchio, a Carchito, a Del<span class="brand-fin">Fín</span>.</p>
+        <span class="gold-link">Ver el documento completo →</span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -96,7 +118,7 @@
       <a class="team-card" href="equipo/flor.html">
         <p class="team-name">Flor</p>
         <p class="team-role">Community Manager</p>
-        <p>Gestiona las redes, publica, responde, arma funnels, nutre a la audiencia. Engancha y pasa el lead calentito a Closer.</p>
+        <p>Gestiona las redes, publica, responde, arma funnels, nutre a la audiencia. Engancha y pasa el lead calificado a Closer.</p>
         <p class="link-arrow" style="margin-top:14px;">Ver perfil →</p>
       </a>
       <a class="team-card" href="equipo/lauti.html">
@@ -126,13 +148,13 @@
       <a class="team-card" href="equipo/bruno.html">
         <p class="team-name">Bruno</p>
         <p class="team-role">SDR / Prospección B2B</p>
-        <p>Prospección, scraping, inteligencia comercial y automatización para iniciar conversaciones con decisores. Cuando el lead está caliente, pasa la pelota a Closer.</p>
+        <p>Prospección, scraping, inteligencia comercial y automatización para iniciar conversaciones con decisores. Cuando el lead está calificado, pasa la pelota a Closer.</p>
         <p class="link-arrow" style="margin-top:14px;">Ver perfil →</p>
       </a>
       <a class="team-card" href="equipo/agus.html">
         <p class="team-name">Agus</p>
         <p class="team-role">Closer / Cierre de Ventas</p>
-        <p>Recibe los leads calientes de CM y SDR, arma la propuesta y cierra la venta.</p>
+        <p>Recibe los leads calificados de CM y SDR, arma la propuesta y cierra la venta.</p>
         <p class="link-arrow" style="margin-top:14px;">Ver perfil →</p>
       </a>
       <a class="team-card" href="equipo/tincho.html">
@@ -141,20 +163,6 @@
         <p>El cerebro que articula todo. Gestiona la cuenta, hace seguimiento junto a Closer, y es experto en customer success y up-selling.</p>
         <p class="link-arrow" style="margin-top:14px;">Ver perfil →</p>
       </a>
-    </div>
-  </div>
-</section>
-
-<hr class="divider">
-
-<section>
-  <div class="wrap">
-    <div class="gold-card">
-      <p class="kicker">Documento fundacional</p>
-      <h3>El Prompt de Oro</h3>
-      <p class="gold-byline">De Tomás Carchio, a Carchito, a Del<span class="brand-fin">Fín</span>.</p>
-      <p>El mensaje original, sin editar, donde se definió — agente por agente — el equipo que compone Del<span class="brand-fin">Fín</span>. Lo que originó todo.</p>
-      <a class="gold-link" href="https://claude.ai/code/artifact/cc1b8573-260a-4599-8ef1-c4a5d6e478a8" target="_blank" rel="noopener">Ver el documento completo →</a>
     </div>
   </div>
 </section>
