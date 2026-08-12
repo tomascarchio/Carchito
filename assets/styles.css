@@ -205,7 +205,7 @@ a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
   background: linear-gradient(155deg, var(--violet-pale), var(--violet));
   margin-bottom: 16px;
 }
-.team-name { font-size: 18px; font-weight: 700; margin: 0 0 2px; }
+.team-card .team-name { font-size: 18px; font-weight: 700; margin: 0 0 2px; color: var(--violet-light); }
 .team-role {
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 12.5px;
@@ -228,7 +228,7 @@ a.card:hover { border-color: var(--line-strong); background: var(--card-2); }
 }
 a.case-card { transition: border-color 0.15s ease, background 0.15s ease; }
 a.case-card:hover { border-color: var(--line-strong); background: var(--card-2); }
-.case-name { font-size: 22px; font-weight: 800; margin: 0 0 4px; color: var(--violet-light); }
+.case-name { font-size: 22px; font-weight: 800; margin: 0 0 4px; color: var(--text); }
 .case-industry {
   font-family: 'Consolas', 'Courier New', monospace;
   font-size: 12.5px;
