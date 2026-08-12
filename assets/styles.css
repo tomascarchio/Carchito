@@ -71,6 +71,13 @@ a { color: inherit; }
   background: var(--violet);
   box-shadow: 0 0 16px rgba(56, 182, 255, 0.65);
 }
+.nav-logo {
+  height: 34px;
+  width: auto;
+  border-radius: 9px;
+  display: block;
+  box-shadow: 0 0 0 1px var(--line);
+}
 .nav-links {
   display: flex;
   gap: 26px;
@@ -136,9 +143,9 @@ section.tight { padding: 48px 0; }
 }
 .hero-tag {
   font-family: 'Consolas', 'Courier New', monospace;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 1px;
-  color: var(--muted-2);
+  color: var(--text);
   margin-top: 22px;
 }
 
