@@ -445,6 +445,9 @@ footer.site-footer {
 .footer-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; align-items: center; }
 .footer-slogan { font-size: 15px; color: var(--muted); }
 .footer-meta { font-family: 'Consolas', 'Courier New', monospace; font-size: 12.5px; color: var(--muted-2); }
+.footer-legal { display: flex; gap: 16px; align-items: center; }
+.footer-legal a { font-size: 12.5px; color: var(--muted-2); text-decoration: none; }
+.footer-legal a:hover { color: var(--muted); }
 .footer-social { display: flex; gap: 18px; }
 .footer-social a { font-size: 13.5px; color: var(--violet-light); text-decoration: none; }
 .footer-social a:hover { color: var(--violet-pale); }
