@@ -1,25 +1,33 @@
 User-agent: *
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: Claude-User
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /landing-suscripcion/
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /landing-suscripcion/
 
 Sitemap: https://tomascarchio.github.io/Delfin/sitemap.xml
